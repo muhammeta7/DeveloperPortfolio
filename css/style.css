@@ -98,17 +98,27 @@ section {
 	color: #fec503
 }
 .navbar-default .navbar-collapse {
-	border-color: rgba(255,255,255,.02)
+	border-color: rgba(255,255,255,.02);
+    border-bottom: 2px solid black;
+    background: #000;
+
 }
+#name{
+    position: relative;
+    left: 25px;
+    top: 15px;
+    color: white;
+}
+
 .navbar-default .navbar-toggle {
 	background-color: #fed136;
-	border-color: #fed136
+	border-color: #fed136;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff
+	background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #fed136;
 }
 .navbar-default .nav li a {
     font-family: "Roboto",sans-serif;
@@ -116,22 +126,24 @@ section {
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #000;
-    border-bottom: 1px solid;
+    color: white;
+    border-bottom: 2px solid white;
     border-color: #000;
     margin: 10px 15px;
     padding: 0 0 2px 0;
+    position: relative;
+    top: 30px;
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
 	border-color: #991919;
-	outline: 0
+	outline: 0;
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #fed136;
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
@@ -168,6 +180,7 @@ section {
     }
 }
 
+
 /*--------------------
 4. Sections
 --------------------*/
@@ -188,9 +201,9 @@ section {
 	margin: 25px 100px 30px 100px;
 }
 
-.mz-module .section-title {
+/*.mz-module .section-title {
     padding: 40px 0;
-}
+}*/
 
 /*--------------------
 4.1. About
@@ -689,3 +702,27 @@ and (max-width : 480px) {
     text-align: center;
     padding-bottom: 10px;
 }
+
+
+/*Copyright*/
+#copyright{
+    line-height: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    font-family: "Raleway", Sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+.cpText{
+    padding-top: 15px;
+}
+
+#copyR{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+}
+

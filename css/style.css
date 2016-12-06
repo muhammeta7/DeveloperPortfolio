@@ -27,11 +27,6 @@ h6 {
 	color: #232323;
 }
 
-#name{
-    position:relative;
-    top: -20px;
-}
-
 p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
@@ -97,13 +92,13 @@ section {
     padding: 5px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #fec503;
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02);
     border-bottom: 2px solid black;
     background: #000;
-
+    margin-bottom: 20px;
 }
 #name{
     position: relative;
@@ -116,9 +111,7 @@ section {
 	background-color: #fed136;
 	border-color: #fed136;
 }
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
-}
+
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
 	background-color: #fed136;
 }
@@ -138,18 +131,8 @@ section {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	border-color: #991919;
+	border-color: yellow;
 	outline: 0;
-}
-
-.navbar-default .navbar-nav>.active>a {
-	border-radius: 0;
-	color: #fff;
-	background-color: #fed136;
-}
-.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
-	color: #fff;
-	background-color: #fec503
 }
 
 @media (min-width:768px) {
@@ -183,6 +166,17 @@ section {
 }
 
 
+/*Travels*/
+.mySlides {
+    width: 720px;
+    height: 540px;
+}
+
+.travel {
+    padding-top: 50px;
+}
+
+
 /*--------------------
 4. Sections
 --------------------*/
@@ -206,9 +200,7 @@ section {
 #about{
     padding-top: 80px;
 }
-/*.mz-module .section-title {
-    padding: 40px 0;
-}*/
+
 
 /*--------------------
 4.1. About
@@ -682,4 +674,8 @@ and (max-width : 480px) {
     padding-top: 15px;
     font-size: 14px;
 }
+
+
+
+
 
